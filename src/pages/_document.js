@@ -6,7 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* Favicon */}
-        <link rel="icon" href="./favicon.ico" />
+        <link rel="icon" href="./dp.ico" />
         {/* Global Stylesheets */}
         <link
           rel="stylesheet"
@@ -22,20 +22,20 @@ export default function Document() {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="Jayash Dev Portfolio - Full Stack Developer specializing in the MERN stack"
+          content="Anurag Dev Portfolio - Full Stack Developer specializing in the MERN stack"
         />
         <meta
           name="keywords"
-          content="Jayash, Full Stack Developer, MERN, Portfolio, Next.js"
+          content="Anurag, Full Stack Developer, MERN, Portfolio, Next.js"
         />
-        <meta name="author" content="Jayash" />
+        <meta name="author" content="Anurag" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content="Jayash Dev Portfolio" />
+        <meta property="og:title" content="Anurag Dev Portfolio" />
         <meta
           property="og:description"
-          content="Portfolio of Jayash, showcasing skills and projects in full-stack development."
+          content="Portfolio of Anurag, showcasing skills and projects in full-stack development."
         />
-        <meta property="og:url" content="https://jayash-dev.vercel.app" />
+        <meta property="og:url" content="https://anurag-dev.vercel.app" />
         <meta property="og:type" content="website" />
       </Head>
       <body>

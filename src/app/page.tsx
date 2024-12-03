@@ -8,6 +8,7 @@ import { ScrollTrigger } from "gsap/all";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   const mainRef = useRef<HTMLDivElement>(null);
@@ -44,10 +45,10 @@ export default function Home() {
                 <div className="overflow-hidden">
                   <img
                     src="/images/Avatar.jpg"
-                    alt="jayash"
+                    alt="Anurag Dubey"
                     className="w-full h-full cursor-pointer rounded-xl hover:scale-105 duration-150 ease-in-out"
                     onClick={() => {
-                      window.open("https://github.com/JayashSaini/");
+                      window.open("https://github.com/anurag2169");
                     }}
                   />
                 </div>
@@ -55,10 +56,9 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2 w-full md:text-lg text-sm  text-gray-600 md:text-left text-center mt-5">
-              👋 Hi there, I&apos;m Jayash! I&apos;m a results-driven MERN stack
-              developer with a passion for building cutting-edge web
-              applications that make an impact.{" "}
-              <br />
+              👋 Hi there, I&apos;m Anurag Dubey! I&apos;m a results-driven MERN
+              stack developer with a passion for building cutting-edge web
+              applications that make an impact. <br />
               <span className="md:flex hidden">
                 I&apos;ve honed my skills in MongoDB, Express.js, React.js, and
                 Node.js to deliver high-quality solutions tailored to meet
@@ -71,6 +71,9 @@ export default function Home() {
         </section>
         <section className="w-full h-auto  my-20">
           <Skills />
+        </section>
+        <section className="w-full  h-auto my-10">
+          <Experience />
         </section>
         <section className="w-full  h-auto my-10">
           <Projects />

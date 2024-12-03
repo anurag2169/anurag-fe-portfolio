@@ -12,31 +12,31 @@ const icons = [
   {
     icon: "./socialIcons/github.svg",
     delay: 0,
-    link: "https://github.com/JayashSaini/",
+    link: "https://github.com/anurag2169",
     name: "github",
   },
   {
     icon: "./socialIcons/linkedin.svg",
     delay: 0.5,
-    link: "https://www.linkedin.com/in/jayash-saini-371bb0267/",
+    link: "https://www.linkedin.com/in/anuragdubey2169/",
     name: "linkedin",
   },
   {
     icon: "./socialIcons/twitter.svg",
     delay: 1.5,
-    link: "https://twitter.com/JayashSaini73",
+    link: "https://x.com/anurag270569",
     name: "twitter",
   },
   {
     icon: "./socialIcons/instagram.svg",
     delay: 2,
-    link: "https://www.instagram.com/jayash_7361/",
+    link: "https://www.instagram.com/anurag2169/",
     name: "instagram",
   },
   {
     icon: "./socialIcons/gmail.svg",
     delay: 2,
-    link: "mailto:Jayash%20Saini%20%3cjayashysaini7361@gmail.com%3e",
+    link: "mailto:anuragd2169@gmail.com?subject=Hello%20Anurag&body=Hi%20Anurag,%0D%0A%0D%0AHow%20are%20you?",
     name: "email",
   },
 ];

@@ -10,9 +10,9 @@ const lato = Lexend({ weight: "400", subsets: ["latin"] });
 
 // Metadata for SEO
 export const metadata: Metadata = {
-  title: "Jayash.dev - MERN Stack Developer Portfolio",
+  title: "Anurag.dev - Full Stack Developer Portfolio",
   description:
-    "Explore Jayash Saini's portfolio, an experienced MERN stack developer specializing in full-stack web development with expertise in React, Node.js, and more.",
+    "Explore Anurag Dubey's portfolio, an experienced MERN stack developer specializing in full-stack web development with expertise in React, Node.js, and more.",
 };
 
 export default function RootLayout({
@@ -26,38 +26,38 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="Explore Jayash Saini's portfolio, an experienced MERN stack developer specializing in full-stack web development."
+          content="Explore Anurag Dubey's portfolio, an experienced MERN stack developer specializing in full-stack web development."
         />
         <meta
           name="keywords"
-          content="Jayash Saini, MERN Stack Developer, Portfolio, Web Development, Full-Stack, React, Next.js, Node.js"
+          content="Anurag Dubey, MERN Stack Developer, Portfolio, Web Development, Full-Stack, React, Next.js, Node.js"
         />
-        <meta name="author" content="Jayash Saini" />
+        <meta name="author" content="Anurag Dubey" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://jayash-dev.vercel.app" />
+        <link rel="canonical" href="https://Anurag-dev.vercel.app" />
 
         {/* Open Graph and Twitter Meta Tags */}
         <meta
           property="og:title"
-          content="Jayash.dev - Experienced MERN Stack Developer Portfolio"
+          content="Anurag.dev - Experienced MERN Stack Developer Portfolio"
         />
         <meta
           property="og:description"
-          content="Explore Jayash Saini's portfolio, an experienced MERN stack developer showcasing projects and skills in full-stack web development."
+          content="Explore Anurag Dubey's portfolio, an experienced MERN stack developer showcasing projects and skills in full-stack web development."
         />
         <meta property="og:image" content="/path-to-portfolio-image.jpg" />
-        <meta property="og:url" content="https://jayash-dev.vercel.app" />
+        <meta property="og:url" content="https://Anurag-dev.vercel.app" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Jayash.dev - Experienced MERN Stack Developer"
+          content="Anurag.dev - Experienced MERN Stack Developer"
         />
         <meta
           name="twitter:description"
-          content="Check out Jayash Saini's portfolio showcasing projects, skills, and experience in MERN stack development."
+          content="Check out Anurag Dubey's portfolio showcasing projects, skills, and experience in MERN stack development."
         />
         <meta name="twitter:image" content="/path-to-twitter-image.jpg" />
 
@@ -101,16 +101,16 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "http://schema.org",
               "@type": "Person",
-              name: "Jayash Saini",
-              url: "https://jayash-dev.vercel.app",
+              name: "Anurag Dubey",
+              url: "https://Anurag-dev.vercel.app",
               jobTitle: "Full Stack Developer",
               worksFor: {
                 "@type": "Organization",
                 name: "Freelance",
               },
               sameAs: [
-                "https://github.com/JayashSaini/",
-                "https://www.linkedin.com/in/jayash-saini-371bb0267/",
+                "https://github.com/AnuragDubey/",
+                "https://www.linkedin.com/in/Anurag-Dubey-371bb0267/",
               ],
               knowsAbout: [
                 "MERN Stack",

@@ -91,7 +91,16 @@ export const InfiniteMovingCards = ({
           >
             <blockquote>
               <div className="flex justify-center  flex-col gap-4 items-center py-4 bg-gray-200 shadow-md ring-2 ring-white ring-opacity-75 select-none">
-                <i className={`${item.iconClass} ci-2x`}></i>
+                {/* <i className={`${item.iconClass} ci-2x`}></i> */}
+                {item.iconClass.startsWith("ci") ? (
+                  <i className={`${item.iconClass} ci-2x`}></i>
+                ) : (
+                  <img
+                    className="w-8 h-8"
+                    src={`${item.iconClass}`}
+                    alt={`${item.name}`}
+                  />
+                )}
                 <span className="md:text-2xl text-lg text-gray-800">
                   {item.name}
                 </span>

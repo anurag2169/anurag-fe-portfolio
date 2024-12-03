@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             ref={nameRef}
             className="md:text-2xl  text-base  text-gray-800 font-light"
           >
-            Jayash Saini
+           Anurag Dubey
           </a>
           <div ref={resumeRef} className="mb-2">
             <Resume />
