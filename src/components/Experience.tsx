@@ -114,8 +114,7 @@ const Experience = () => {
           </p>
           <div className="my-5 text-base text-gray-500">
             <li>
-              Developed web applications using
-              <span className="text-black text-bold">
+              Developed web applications using <span className="text-black text-bold">
                 React.js, Next.js, and various UI libraries including Tailwind
                 UI, Ant Design, and Material UI
               </span>
@@ -123,7 +122,7 @@ const Experience = () => {
             </li>
             <li>
               Integrated
-              <span className="text-black text-bold">third-party APIs </span>to
+              <span className="text-black text-bold"> third-party APIs </span>to
               extend application functionalities and developed backend services
               using <span className="text-black text-bold">Next Auth</span>,
               providing secure authentication solutions.

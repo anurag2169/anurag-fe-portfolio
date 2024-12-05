@@ -20,31 +20,33 @@ const Projects = () => {
       <div className="  w-full border-[1px] border-gray-200  px-5 sm:py-12 py-8 rounded-xl flex  flex-col-reverse md:flex-row gap-4 my-6">
         <div className="md:w-[45%] w-full">
           <h1 className="md:text-xl text-lg font-bold  text-gray-800">
-            ChicChat /{" "}
+            Rise Stream /{" "}
             <span className="md:text-xl text-lg text-gray-700">
-              Real Time Chat Platform
+              A Video Hosting Platform
             </span>
           </h1>
           <p className="my-5 sm:block hidden text-base text-gray-500">
-          Developed ChicChat, a real-time chat and video streaming web app using the MERN stack and Socket.IO for
-seamless messaging and low-latency video calls.
-
+            A video streaming platform inspired by YouTube, built for hosting
+            and watching videos with personalized recommendations.
           </p>
 
-        <div className="md:block hidden">
-        <h2 className="font-semibold text-lg text-gray-800 mt-5">Tech Used</h2>
-          <div className="w-full mt-2 mb-6 flex justify-start md:gap-4 gap-2">
-            <i className="ci ci-2x ci-react"></i>
-            <i className="ci ci-2x ci-mongodb"></i>
-            <i className="ci ci-2x ci-ts"></i>
-            <i className="ci ci-2x ci-expressjs"></i>
-            <i className="ci ci-2x ci-nodejs"></i>
-            <i className="ci ci-2x ci-tailwindcss"></i>
+          <div className="md:block hidden">
+            <h2 className="font-semibold text-lg text-gray-800 mt-5">
+              Tech Used
+            </h2>
+            <div className="w-full mt-2 mb-6 flex justify-start md:gap-4 gap-2">
+              <i className="ci ci-2x ci-react"></i>
+              <i className="ci ci-2x ci-mongodb"></i>
+              <i className="ci ci-2x ci-ts"></i>
+              <i className="ci ci-2x ci-expressjs"></i>
+              <i className="ci ci-2x ci-nodejs"></i>
+              <i className="ci ci-2x ci-tailwindcss"></i>
+              <i className="ci ci-2x ci-nextjs"></i>
+            </div>
           </div>
-        </div>
           <div className="w-full my-3 flex gap-2">
             <a
-              href="https://github.com/JayashSaini/ChicChat-Frontend"
+              href="https://github.com/anurag2169/rise-stream-fe"
               target="_blank"
             >
               <button className="py-2 px-5 flex items-center justify-center gap-2 text-sm bg-white text-[#111111] rounded-[4px]  hover:px-10 duration-150 ease-in-out border-[1px] border-[#303030]">
@@ -53,7 +55,7 @@ seamless messaging and low-latency video calls.
               </button>
             </a>
             <a
-              href="https://github.com/JayashSaini/ChicChat-Backend"
+              href="https://github.com/anurag2169/RiseStream-backend"
               target="_blank"
             >
               <button className="py-2 px-5 flex items-center justify-center gap-2 text-sm bg-white text-[#111111] rounded-[4px]  hover:px-10 duration-150 ease-in-out border-[1px] border-[#303030]">
@@ -62,43 +64,43 @@ seamless messaging and low-latency video calls.
               </button>
             </a>
           </div>
-          <a href="https://chicchat.vercel.app/" target="_blank">
+          <a href="https://rise-stream-fe.vercel.app/home" target="_blank">
             <button className="w-full py-4 bg-neutral-900 text-white hover:tracking-wider rounded-[5px] flex justify-center items-center gap-1">
-              ChicChat
+              Rise Stream
             </button>
           </a>
         </div>
         <div className="md:w-[55%] w-full overflow-hidden border-[1px] border-[#2020205d] rounded-xl">
           <Slider {...settings}>
             <img
-              src={"/images/Project2/chicchat1.png"}
+              src={"/images/riseStream/first.png"}
               alt=""
               loading="lazy"
-              className="w-full md:h-[375px] rounded-xl"
+              className="w-full md:h-[375px] rounded-xl object-cover"
             />
             <img
-              src={"/images/Project2/chicchat2.png"}
+              src={"/images/riseStream/2.png"}
               alt=""
               loading="lazy"
-              className="w-full md:h-[375px] rounded-xl"
+              className="w-full md:h-[375px] rounded-xl object-cover"
             />
             <img
-              src={"/images/Project2/chicchat3.png"}
+              src={"/images/riseStream/3.png"}
               alt=""
               loading="lazy"
-              className="w-full md:h-[375px] rounded-xl"
+              className="w-full md:h-[375px] rounded-xl object-cover"
             />
             <img
-              src={"/images/Project2/chicchat4.png"}
+              src={"/images/riseStream/4.png"}
               alt=""
               loading="lazy"
-              className="w-full md:h-[375px] rounded-xl"
+              className="w-full md:h-[375px] rounded-xl object-cover"
             />
             <img
-              src={"/images/Project2/chicchat5.png"}
+              src={"/images/riseStream/5.png"}
               alt=""
               loading="lazy"
-              className="w-full md:h-[375px] rounded-xl"
+              className="w-full md:h-[375px] rounded-xl object-cover"
             />
           </Slider>
         </div>
@@ -118,32 +120,27 @@ seamless messaging and low-latency video calls.
             developer.
           </p>
           <div className="md:block hidden">
-
-          <h2 className="font-semibold text-lg text-gray-800 mt-5">Tech Used</h2>
-          <div className="w-full mt-2 mb-6 flex justify-start md:gap-4 gap-2">
-            <i className="ci ci-2x ci-react"></i>
-            <i className="ci ci-2x ci-mongodb"></i>
-            <i className="ci ci-2x ci-redis"></i>
-            <i className="ci ci-2x ci-ts"></i>
-            <i className="ci ci-2x ci-expressjs"></i>
-            <i className="ci ci-2x ci-nodejs"></i>
-            <i className="ci ci-2x ci-tailwindcss"></i>
-          </div>
+            <h2 className="font-semibold text-lg text-gray-800 mt-5">
+              Tech Used
+            </h2>
+            <div className="w-full mt-2 mb-6 flex justify-start md:gap-4 gap-2">
+              <i className="ci ci-2x ci-react"></i>
+              <i className="ci ci-2x ci-mongodb"></i>
+              <i className="ci ci-2x ci-redis"></i>
+              <i className="ci ci-2x ci-ts"></i>
+              <i className="ci ci-2x ci-expressjs"></i>
+              <i className="ci ci-2x ci-nodejs"></i>
+              <i className="ci ci-2x ci-tailwindcss"></i>
+            </div>
           </div>
           <div className="w-full my-3 flex gap-2">
-            <a
-              href="https://github.com/JayashSaini/WebWorld-Frontend"
-              target="_blank"
-            >
+            <a href="#" target="_blank">
               <button className="py-2 px-5 flex items-center justify-center gap-2 text-sm bg-white text-[#111111] rounded-[4px]  hover:px-10 duration-150 ease-in-out border-[1px] border-[#303030]">
                 <i className="ci ci-ci-ci-xl ci-github"></i>
                 Frontend
               </button>
             </a>
-            <a
-              href="https://github.com/JayashSaini/WebWorld-Backend"
-              target="_blank"
-            >
+            <a href="#" target="_blank">
               <button className="py-2 px-5 flex items-center justify-center gap-2 text-sm bg-white text-[#111111] rounded-[4px]  hover:px-10 duration-150 ease-in-out border-[1px] border-[#303030]">
                 <i className="ci ci-ci-ci-xl ci-github"></i>
                 Backend
@@ -195,7 +192,9 @@ seamless messaging and low-latency video calls.
         <div className="md:w-[45%] w-full">
           <h1 className="md:text-xl text-lg font-bold text-gray-800 ">
             Shoes Hub /{" "}
-            <span className="md:text-xl text-lg text-neutral-800">e-commerce</span>
+            <span className="md:text-xl text-lg text-neutral-800">
+              e-commerce
+            </span>
           </h1>
           <p className="my-5 sm:block hidden text-base text-gray-500">
             Shoes Hub is a cutting-edge e-commerce platform. Designed for shoe
@@ -203,31 +202,27 @@ seamless messaging and low-latency video calls.
             UI/UX for an exceptional shopping journey.
           </p>
           <div className="md:block hidden">
-          <h2 className="font-semibold text-lg text-gray-800 mt-5">Tech Used</h2>
-          <div className="w-full mt-2 mb-6 flex justify-start md:gap-4 gap-2">
-            <i className="ci ci-2x ci-react"></i>
-            <i className="ci ci-2x ci-redux"></i>
-            <i className="ci ci-2x ci-mongodb"></i>
-            <i className="ci ci-2x ci-redis"></i>
-            <i className="ci ci-2x ci-ts"></i>
-            <i className="ci ci-2x ci-tailwindcss"></i>
-            <i className="ci ci-2x ci-nodejs"></i>
-          </div>
+            <h2 className="font-semibold text-lg text-gray-800 mt-5">
+              Tech Used
+            </h2>
+            <div className="w-full mt-2 mb-6 flex justify-start md:gap-4 gap-2">
+              <i className="ci ci-2x ci-react"></i>
+              <i className="ci ci-2x ci-redux"></i>
+              <i className="ci ci-2x ci-mongodb"></i>
+              <i className="ci ci-2x ci-redis"></i>
+              <i className="ci ci-2x ci-ts"></i>
+              <i className="ci ci-2x ci-tailwindcss"></i>
+              <i className="ci ci-2x ci-nodejs"></i>
+            </div>
           </div>
           <div className="w-full my-3 flex gap-2">
-            <a
-              href="https://github.com/JayashSaini/ShoesHubFrontend"
-              target="_blank"
-            >
+            <a href="" target="_blank">
               <button className="py-2 px-5 flex items-center justify-center gap-2 text-sm bg-white text-[#111111] rounded-[4px]  hover:px-10 duration-150 ease-in-out border-[1px] border-[#303030]">
                 <i className="ci ci-ci-ci-xl ci-github"></i>
                 Frontend
               </button>
             </a>
-            <a
-              href="https://github.com/JayashSaini/ShoesHubBackend/"
-              target="_blank"
-            >
+            <a href="" target="_blank">
               <button className="py-2 px-5 flex items-center justify-center gap-2 text-sm bg-white text-[#111111] rounded-[4px]  hover:px-10 duration-150 ease-in-out border-[1px] border-[#303030]">
                 <i className="ci ci-ci-ci-xl ci-github"></i>
                 Backend
@@ -235,7 +230,7 @@ seamless messaging and low-latency video calls.
             </a>
           </div>
           <a href="https://online-shoeshub.vercel.app/" target="_blank">
-          <button className="w-full py-4 bg-neutral-900 text-white hover:tracking-wider rounded-[5px] flex justify-center items-center gap-1">
+            <button className="w-full py-4 bg-neutral-900 text-white hover:tracking-wider rounded-[5px] flex justify-center items-center gap-1">
               Shoes Hub
             </button>
           </a>
