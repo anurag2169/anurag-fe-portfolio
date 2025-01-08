@@ -2,7 +2,7 @@
 import Link from "next/link";
 const Resume = () => {
   const downloadUrl =
-    "https://docs.google.com/document/d/1LvRPUYeAJuiwiDHMhY2sY6lFu6ISwzLB/view?usp=sharing";
+    "https://drive.google.com/file/d/1ZB5hOGM73y2WW2puKsi7ByQZlITH4WHg/view?usp=sharing";
 
   https: return (
     <Link
