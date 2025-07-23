@@ -8,7 +8,8 @@ import { ScrollTrigger } from "gsap/all";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
+import ExperienceDetails from "@/components/ExperienceDetails";
+import ProjectSection from "@/components/projectSection";
 
 export default function Home() {
   const mainRef = useRef<HTMLDivElement>(null);
@@ -73,10 +74,11 @@ export default function Home() {
           <Skills />
         </section>
         <section className="w-full  h-auto my-10">
-          <Experience />
+          <ExperienceDetails />
         </section>
         <section className="w-full  h-auto my-10">
-          <Projects />
+          {/* <Projects /> */}
+          <ProjectSection />
         </section>
         <section className="w-full h-auto  my-10 ">
           <Contact />
